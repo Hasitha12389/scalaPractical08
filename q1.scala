@@ -21,7 +21,7 @@ def cipher(message: String,shift: Int, operation: (String,Int) => String): Strin
  
 def main(args:Array[String]): Unit={
     val message = "ABCDE"
-    val shift = 3
+    val shift = 5
 
     println("\n---------Ceaser Cipher----------\n")
 
